@@ -103,6 +103,13 @@ body {
   border-radius: 8px;
   cursor: pointer;
   background-color: var(--Darkcyan);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: var(--Montserrat)
+}
+.icon{
+    padding-right: 15px;
 }
 
 .button-primary:hover {
@@ -114,7 +121,7 @@ body {
   font-family: var(--Montserrat);
   font-weight: 700;
   color: var(--White);
-  margin: 11px;
+
 }
 
 @media (min-width: 1104px) {
@@ -124,7 +131,7 @@ body {
     align-items: center;
     width: 602px;
     height: 453px;
-    margin: 220px auto;
+    margin: 180px auto;
   }
 
   .imagen-perfume {
